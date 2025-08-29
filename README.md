@@ -31,6 +31,7 @@ Data Cleaning and formatting.
   - We also discovered the best Recore labels in terms of numbers
     
 ### Ten queries from the Artist and Album table
+
 #### -- 1. List all artist names and countries
 
 SELECT artist_name, country FROM hiphop_artists;
@@ -92,5 +93,13 @@ FROM hiphop_albums al
 JOIN hiphop_artists a ON al.artist_id = a.artist_id
 GROUP BY a.artist_name
 HAVING album_count > 1 AND total_streams > 5;
+
+### Some Result screenshots 
+
+<img width="1332" height="727" alt="Screenshot 2025-08-29 180812" src="https://github.com/user-attachments/assets/688a428c-3ee1-4d9d-af13-ea0b98150fde" />
+
+
+<img width="1228" height="631" alt="Screenshot 2025-08-29 180956" src="https://github.com/user-attachments/assets/814fca01-57de-4261-b1f8-dc8ff40bea7f" />
+
 
 🙏 Thank you 👋
