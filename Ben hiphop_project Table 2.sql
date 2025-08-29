@@ -1,0 +1,1 @@
+SELECT * FROM music_db.hiphop_albums;
